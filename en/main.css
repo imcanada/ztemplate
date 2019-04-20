@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Raleway');
+body,html {
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    background-color: whitesmoke;
+}
+
+h1 {
+    font-family: 'Raleway', sans-serif;°
+}
+
+.logodiv {
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.logo {
+    margin-bottom: 8px;
+}
+
+.sublogo {
+    margin-top: 0px;
+}
+
+ul.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #15232C;
+  }
+  
+ul.nav li {
+    float: left;
+  }
+  
+ul.nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+li.first {
+    padding: 0px 6px;
+}
+  
+  /* Change the link color to #111 (black) on hover */
+ul.nav li a:hover {
+    background-color: #111;
+}
+
+.side1 {
+    width: 80%;
+    float: left;
+}
+
+.side2 {
+    width: 20%;
+    float: left;
+    text-align: right;
+}
+
+.main {
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+h1 {
+    font-weight: lighter;
+}
+
+.img {
+    background-image: url('sht.jpg');
+    height: 81vh;
+    background-size: cover;
+    position: relative;
+}
+  
+  .center {
+
+    position: absolute;
+    top: 50%;
+    left: 49%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+
+.title {
+    color: white;
+    font-size: 50pt;
+    text-shadow: 0px 0px 15px rgba(0, 0, 0, 1);
+}
+
+.footer {
+    height: 50px;
+    text-align: center;
+    background-color: #15232C;
+    overflow: hidden;
+    color: white;
+    
+}
+
+.sides {
+    overflow: hidden;
+    height: 100%;
+}
+
+
+
